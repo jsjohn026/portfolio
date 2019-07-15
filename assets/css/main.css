@@ -2707,14 +2707,16 @@ input, select, textarea {
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
 		background-image: url("images/top-3200.svg"), url("images/overlay2.jpg");
-		background-position: bottom center, bottom left;
+		background-position: bottom center, top right;
 		background-repeat: repeat-x, no-repeat;
 		background-size: 3200px 460px,	cover;
-		color: rgba(255, 255, 255, 0.8);
+		/* color: rgba(255, 255, 255, 0.8); */
+		color: white;
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
-		text-shadow: 2px 2px 4px #000000;
+		text-shadow: 1px 1px 2px #000000;
+		/* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 */
 	}
 
 		#header:before, #header:after {
