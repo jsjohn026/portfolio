@@ -2694,6 +2694,7 @@ input, select, textarea {
 					top: 0;
 					height: auto;
 					width: 100%;
+					object-fit: cover;
 				}
 
 			.feature.right .content {
